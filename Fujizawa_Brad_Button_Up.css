@@ -1,0 +1,35 @@
+body * {
+    margin: 5px;
+}
+#search {
+    color: rgb(0,209,178);
+    font-weight: bold;
+    border-color: rgb(0,209,178);
+    background-color: white;
+    border-radius: 12px;
+    width: 125px;
+    height: 25px;
+
+}
+
+#plus {
+    color: white;
+    font-size: 150%;
+    background-color: rgb(0,209,178);
+    border-radius: 50%;
+    height: 25pt;
+    width: 25pt;
+    border: none;
+    
+}
+
+#create button {
+    background-color: rgb(43,120,228);
+    color: white;
+    font-size: 105%;
+    height: 25pt;
+    width: 125pt;
+    border-color: black;
+    box-shadow: 5px 5px black;
+
+}
