@@ -1,0 +1,29 @@
+body * {
+    display: flex;
+    margin: 10px;
+}
+
+h1 {
+    justify-content: center;
+}
+
+img.octocat {
+    height: 200px;
+    padding: 10px;
+    
+}
+
+#firstRow {
+    background-color: rgb(88,196,248);
+    justify-content: space-between;
+}
+
+#secondRow {
+    background-color: rgb(216,160,170);
+    justify-content: space-evenly;
+}
+
+#thirdRow {
+    justify-content: space-between;
+    background-color: rgb(252,252,255);
+}
