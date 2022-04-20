@@ -1,0 +1,22 @@
+#flag {
+    height: 240px;
+    width: 360px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#top {
+    height: 80px;
+    background-color: black;
+}
+
+#middle {
+    height: 80px;
+    background-color: red;
+}
+
+#bot {
+    height: 80px;
+    background-color: yellow;
+}
