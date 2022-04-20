@@ -1,0 +1,17 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    background: rgb(101,157,161);
+    align-items: center;
+    padding-right: 100px;
+
+}
+
+.col {
+}
