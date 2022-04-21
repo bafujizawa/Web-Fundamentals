@@ -1,0 +1,19 @@
+body * {
+    margin: 0px;
+    padding: 0px;
+}
+
+#heading {
+    background-color: teal;
+    height: 100px;
+    margin-bottom: 70px;
+}
+
+.user {
+    border-radius: 50%;
+    background-color: white;
+    height: 190px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
