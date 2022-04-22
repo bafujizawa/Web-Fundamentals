@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Fujizawa_Brad_Profile_Page.css">
+    <title>Flex Navbar</title>
+</head>
+<body>
+    <!-- navbar -->
+    <div class="nav">
+        <h1 class="nav-title">Profile</h1>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#" class="active">My Profile</a></li>
+            <li><a href="#">Find Connections</a></li>
+            <li><button class="btn">Sign Out</button></li>
+        </ul>
+    </div>
+    <!-- Profile Page -->
+    <div id="profile-page">
+        <div class="user-card">
+            <div class="header">
+                <img src="icons/user-circle.png" alt="" id="user-pic">
+            </div>
+            <div class="card-body">
+                <h1 class="l_margin_25">Jane Doe</h1>
+                <h2 class="l_margin_25">
+                    <img id="marker" src="icons/map-marker.png" alt="">Seattle
+                </h2>
+                <p class="l_margin_25">Developer | Engineer | Problem Solver<br>
+                Master of shadows and the Internet!</p>
+                <p class="l_margin_25" >
+                    <a href="">
+                        <img id="gear" src="icons/gear.png" alt="">Edit Profile</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Connection Requests -->
+    <div id="conn-request-flexbox">
+        <div id="conn-request">
+            <div id="request-header">
+                <h2>Connection Requests</h2>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>

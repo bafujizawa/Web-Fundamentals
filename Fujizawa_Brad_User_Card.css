@@ -25,6 +25,7 @@
 
 .header {
     background-color:   rgb(23,162,184);
+    height: 75px;
     width: 100%;
 }
 
@@ -40,7 +41,7 @@
     margin-top: 20px;
     margin-left: 20px;
     position: relative;
-    top: 50px;
+    top: 10px;
 }
 
 #marker {
