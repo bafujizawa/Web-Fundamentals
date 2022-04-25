@@ -3,14 +3,26 @@
     padding: 0px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+.align-center {
+    align-items: center;
+}
+
 .btn {
     color: white;
     background-color: rgb(23,162,184);
     margin-left: 411px;
 }
 
+.border-50 {
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
 .card-header {
-    background-color:   rgb(23,162,184);
+    background-color:rgb(1,47,133);
     height: 75px;
 }
 
@@ -30,18 +42,26 @@
     background-color: rgb(51,51,51);
     color: white;
     justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
 }
 
 .connections {
     display: flex;
     flex-direction: row;
+    align-items: center;
     margin: 10px 0px 10px 10px
 }
 
 .conn-pic {
-    height: 25px;
+    height: 50px;
     margin-right: 10px;
-    
+    border-radius: 50%;
+}
+
+.display-flex {
+    display: flex;
 }
 
 #education {
@@ -70,6 +90,8 @@
     background-color: rgb(51,51,51);
     color: white;
     padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #edu-info {
@@ -79,6 +101,11 @@
 #friend-requests {
     margin-top: 25px;
     margin-left: 25px;
+    border: solid grey 2px;
+}
+
+.flex-row{
+    flex-direction: row;
 }
 
 #gear {
@@ -91,11 +118,17 @@
 }
 
 .icons {
-    height: 15px;
+    height: 25px;
+    padding-right: 10px;
 }
 
 .l_margin_25 {
     margin-left: 25px;
+    margin-top: 10px;
+}
+
+.l_padding_10 {
+    padding-left: 10px;
 }
 
 #left-side {
@@ -110,7 +143,7 @@
 
 #marker {
     height: 18px;
-    padding-right: 25px;
+    padding-right: 15px;
 }
 
 .nav {
@@ -147,6 +180,9 @@
     justify-content: space-around;
     background-color: rgb(51,51,51);
     color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
 }
 
 .request-page {
@@ -183,7 +219,6 @@
 #right-side {
     display: flex;
     flex-direction: column;
-    border: solid black 2px;
     width: 400px;
 }
 
@@ -209,6 +244,13 @@
     margin-left: 20px;
     position: relative;
     top: 10px;
+}
+
+#view-more {
+    border-top: solid grey 2px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    padding-left: 10px;
 }
 
 #your-connections {
