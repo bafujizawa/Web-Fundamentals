@@ -3,17 +3,120 @@
     padding: 0px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+.btn {
+    color: white;
+    background-color: rgb(23,162,184);
+    margin-left: 411px;
+}
+
+.card-header {
+    background-color:   rgb(23,162,184);
+    height: 75px;
+}
+
+.card-body {
+    margin-top: 40px;
+}
+
+#completed {
+    height: 15px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#conn-header {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(51,51,51);
+    color: white;
+    justify-content: space-around;
+}
+
+.connections {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px 10px 10px
+}
+
+.conn-pic {
+    height: 25px;
+    margin-right: 10px;
+    
+}
+
+#education {
+    background-color: white;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    padding-bottom: 5px;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+
+#edit-profile {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#edu-body {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+
+#edu-header {
+    background-color: rgb(51,51,51);
+    color: white;
+    padding-left: 25px;
+}
+
+#edu-info {
+    display: flex;
+}
+
+#friend-requests {
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+#gear {
+    height: 18px;
+    padding-right: 10px;
+}
+
+#high-school {
+    margin-top: 10px;
+}
+
+.icons {
+    height: 15px;
+}
+
+.l_margin_25 {
+    margin-left: 25px;
+}
 
 #left-side {
     display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+#main-flexbox {
+    display: flex;
+}
+
+#marker {
+    height: 18px;
+    padding-right: 25px;
 }
 
 .nav {
     background-color:black;
     display: flex;
-    width: 1000px;
     align-content: center;
-    justify-content: space-between;
     color: white;
 } 
 
@@ -22,44 +125,79 @@
     text-decoration: none;
 }
 
+.nav-buttons {
+    margin-left: 25px;
+}
+
 .nav-links {
     align-items: center;
     display: flex;
     list-style-type: none;
-    justify-content: space-around;
-}
-
-.btn {
-    color: white;
-    background-color: rgb(23,162,184);
-    box-shadow: 3px 3px black;
+    margin-right: 25px;
 }
 
 .nav-title {
-    align-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
 }
 
+#request-header {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(51,51,51);
+    color: white;
+}
 
-.user-card {
-    background-color: white;
-    border: 2px solid lightgray;
-    margin-top: 50px;
-    margin-left: 250px;
-    border-radius: 5px;
-    padding-bottom: 25px;
+.request-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.requests {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    justify-content: space-between;
+}
+
+.request_id {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.requests p {
+    margin-bottom: 15px;
+}
+
+.request-pic {
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+#right-side {
+    display: flex;
+    flex-direction: column;
+    border: solid black 2px;
+    width: 400px;
 }
 
 .user-body {
     margin-left: 25px;
 }
 
-.header {
-    background-color:   rgb(23,162,184);
-    height: 75px;
-}
-
-.card-body {
-    margin-top: 40px;
+.user-card {
+    background-color: white;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    padding-bottom: 15px;
+    margin-top: 25px;
+    margin-left: 100px;
 }
 
 #user-pic {
@@ -73,17 +211,31 @@
     top: 10px;
 }
 
-#marker {
-    height: 18px;
-    padding-right: 25px;
-}
-
-.l_margin_25 {
+#your-connections {
+    margin-top: 25px;
     margin-left: 25px;
-    margin-top: 10px;
+    border: grey solid 2px;
 }
 
-#gear {
-    height: 18px;
-    padding-right: 10px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

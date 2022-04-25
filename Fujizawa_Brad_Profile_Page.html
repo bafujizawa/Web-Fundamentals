@@ -5,39 +5,109 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Fujizawa_Brad_Profile_Page.css">
-    <title>Flex Navbar</title>
+    <title>Profile Page</title>
 </head>
 <body>
-    <!-- navbar -->
     <div class="nav">
-        <h1 class="nav-title">Profile</h1>
-        <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#" class="active">My Profile</a></li>
-            <li><a href="#">Find Connections</a></li>
-            <li><button class="btn">Sign Out</button></li>
-        </ul>
+        <div class="nav-title">
+            <h1>Profile</h1>
+            <ul class="nav-links">
+                <li class="nav-buttons"><a href="#">Home</a></li>
+                <li class="nav-buttons"><a href="#" class="active">My Profile</a></li>
+                <li class="nav-buttons"><a href="#">Find Connections</a></li>
+            </ul>
+        </div>
+        <button class="btn">Sign Out</button>
     </div>
     <div id="main-flexbox">
         <div id="left-side">
             <div class="user-card">
-                <div class="header">
-                    <img src="icons/user-circle.png" alt="" id="user-pic">
+                <div class="card-header">
+                    <img src="icons/MichaelScott.PNG" alt="" id="user-pic">
                 </div>
                 <div class="card-body">
-                    <h1 class="l_margin_25">Jane Doe</h1>
+                    <h1 class="l_margin_25">Michael Scott</h1>
                     <h2 class="l_margin_25">
-                        <img id="marker" src="icons/map-marker.png" alt="">Seattle
+                        <img id="marker" src="icons/map-marker.png" alt="">Scranton, PA
                     </h2>
-                    <p class="l_margin_25">Developer | Engineer | Problem Solver<br>
-                    Master of shadows and the Internet!</p>
+                    <p class="l_margin_25">Manager | Salesman | Problem Solver<br>
+                    Salesman of the Year - 1996 & 1997<br>
+                    Boss of the Year!</p>
                     <p class="l_margin_25" >
-                        <a href="">
-                            <img id="gear" src="icons/gear.png" alt="">Edit Profile</a>
+                        <div class="l_margin_25" id="edit-profile">
+                            <img id="gear" src="icons/gear.png" alt="">
+                            <a href="">edit profile</a>
+                        </div>
                     </p>
                 </div>
             </div>
+            <div id="education">
+                <div id="edu-header">
+                    <h2>Education</h2>
+                </div>
+                <div class="l_margin_25" id="edu-body">
+                    <p>Dunder Mifflin Management Program</p>
+                    <div id="edu-info">
+                        <p>Completed </p>
+                        <img id="completed" src="icons/cap-and-gown.jpg" alt="">
+                    </div>
+                    <p id="high-school">Scranton High School<br>
+                    Class of 1982</p>
+                </div>
+            </div>
         </div>   
+        <div id="right-side">
+            <div id="friend-requests">
+                <div id="request-header">
+                    <h2>2</h2>
+                    <h2>Connection Requests</h2>
+                </div>
+                <div class="request-page">
+                    <div class="requests">
+                        <div class="request_id">
+                            <img src="icons/Toby.jpeg" alt="" class='request-pic'>
+                            <h3>Toby Flenderson</h3>
+                        </div>
+                        <div>
+                            <img class="icons" src="icons/accept-circle.png" alt="">
+                            <img class="icons" src="icons/close-circle.png" alt="">
+                        </div>
+                    </div>
+                    <div class="requests">
+                        <div class="request_id">
+                            <img src="icons/andy.jpg" alt="" class='request-pic'>
+                            <h3>Andy Bernard</h3>
+                        </div>
+                        <div>
+                            <img class="icons" src="icons/accept-circle.png" alt="">
+                            <img class="icons" src="icons/close-circle.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="your-connections">
+                <div id="conn-header">
+                    <h3>500+</h3>
+                    <h3>Your Connections</h3>
+                </div>
+                <div class="connections">
+                    <img class="conn-pic" src="icons/holly.jpg" alt="">
+                    <h3>Holly</h3>
+                </div>
+                <div class="connections">
+                    <img class="conn-pic" src="icons/pam.jpg" alt="">
+                    <h3>Pam</h3>
+                </div>
+                <div class="connections">
+                    <img class="conn-pic" src="icons/jim.jpg" alt="">
+                    <h3>Jim</h3>
+                </div>
+                <div class="connections">
+                    <img class="conn-pic" src="icons/erin.jpg" alt="">
+                    <h3>Erin</h3>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
