@@ -4,18 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Fujizawa_Brad_Button_Clicker.css">
     <title>Dojonary</title>
 </head>
 <body>
     <div id="flexbox">
         <div id="nav-bar">
             <h1>Dojonary</h1>
-            <input type="text">Search
-            <button>Login</button>
+            <input type="text" placeholder="Search">
+            <button id="login-button" onclick="logout(this)">Login</button>
         </div>
-        <div id="left-side">
-            <div class=""></div>
+        <div id="content-body">
+            <div id="left-side">
+                <div class="word-card">
+                    <div class="left-card">
+                        <h2>ninja</h2>
+                        <h3>noun</h3>
+                        <p>Plural: ninjas</p>
+                        <button class="likes" onclick="myFunction()">13 likes</button>
+                    </div>
+                    <div class="right-card">
+                        <p>A practitioner skilled in the <a href="">Japanese</a> art of <a href="">ninjutsu</a></p>
+                    </div>
+                </div>
+                <div class="word-card">
+                    <div class="left-card">
+                        <h2>ninja</h2>
+                        <h3>noun</h3>
+                        <p>Plural: ninjas</p>
+                        <button class="likes" onclick="myFunction()">37 likes</button>
+                    </div>
+                    <div class="right-card">
+                        <p>A <a href="">programmer</a> who breaks down problems with <br>
+                             <a href="">zen</a>-like focus</p>
+                    </div>
+                </div>
+            </div>
+            <div id="right-side">
+                <div id="add-def">
+                    <h2>Dojonary is <br>
+                    defined by YOU</h2>
+                    <button onclick="hide(this)" id="def-button">Add Definition</button>
+                </div>
+            </div>
         </div>
     </div>
+    <script src="Fujizawa_Brad_Button_Clicker.js"></script>
 </body>
 </html>

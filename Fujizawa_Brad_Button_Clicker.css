@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#add-def {
+    border: solid black 3px;
+    margin-top: 25px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#content-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#def-button {
+    margin-top: 10px;
+    background-color: lightgreen;
+    box-shadow: 3px 3px black;
+}
+
+#flexbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15px;
+}
+
+#left-side {
+    margin-left: 75px;
+    display: flex;
+    flex-direction: column;
+}
+
+#login-button {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.right-card {
+    /* padding: 25px; */
+}
+
+
+#right-side {
+    margin-right: 75px;
+    margin-left: 15px;
+}
+
+#nav-bar {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    margin-left: 75px;
+    margin-right: 75px;
+    justify-content: space-between;
+}
+
+.word-card {
+    border: solid black 3px;
+    margin-top: 25px;
+    padding: 10px 75px 10px 15px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    align-items: center;
+}
