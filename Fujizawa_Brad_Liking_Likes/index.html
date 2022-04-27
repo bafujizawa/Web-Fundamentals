@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Likes</title>
+</head>
+<body>
+    <div id='flexbox' class="d-flex flex-column gap-25">
+        <div id="nav-bar">
+            <h1 id="nav-heading">Network</h1>
+        </div>
+        <h1 class="d-flex justify-center">Your Feed</h1>
+        <div id="feed" class="d-flex flex-row gap-25 align-start">
+            <div id="add-avatar" class="d-flex flex-column align-items justify-around">
+                <img src="assets/user.png" alt="">
+                <a href="" class="">Add an avatar</a>
+                <p class="bold">Moe Szyslak</p>
+            </div>
+            <div class="d-flex flex-column gap-25 flex-1">
+                <div class="user-box">
+                    <div  class="d-flex justify-between align-items">
+                        <div>
+                            <h1 class="font-25">Homer Simpson</h1>
+                        </div>
+                        <div class="d-flex gap-25 align-items">
+                            <p id="count" class="bold">0 Like(s)</p>
+                            <button onclick="counter()" class="likes">Like</button>
+                        </div>
+                    </div>
+                    <div id="bot-card">
+                        <p>Getting a Duff at <a href="">Moe's</a></p>
+                    </div>
+                </div>
+                <div class="user-box">
+                    <div class="d-flex justify-between align-items">
+                        <div>
+                            <h1 class="font-25">Carl Carlson</h1>
+                        </div>
+                        <div class="d-flex gap-25 align-items">
+                            <p id="count1" class="bold">0 Like(s)</p>
+                            <button onclick="counter1()" class="likes">Like</button>
+                        </div>
+                    </div>
+                    <div id="bot-card">
+                        <p>Getting an exquisite brew at <a href="">Moe's Tavern</a><br>
+                            Come join us!</p>
+                    </div>
+                </div>
+                <div class="user-box">
+                    <div class="d-flex justify-between align-items">
+                        <div>
+                            <h1 class="font-25">Lenny Lenoard</h1>
+                        </div>
+                        <div class="d-flex gap-25 align-items">
+                            <p id="count2" class="bold">0 Like(s)</p>
+                            <button onclick="counter2()" class="likes">Like</button>
+                        </div>
+                    </div>
+                    <div id="bot-card">
+                        <p>Wishing I was with my friend's, but stuck at the <br>
+                            <a href="">Springfield PowerPlant</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
