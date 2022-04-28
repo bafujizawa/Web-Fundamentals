@@ -8,8 +8,9 @@
     <title>Dojo Sports News Network</title>
 </head>
 <body>
+
     <div id="flexbox" class="d-flex flex-column">
-        <div id="score-nav" class="d-flex flex-row gap-25 align-center">
+        <div id="score-nav" class="d-flex flex-row align-center gap-50">
             <h1>Live Scores</h1>
             <div class="d-flex flex-column flex-1">
                 <h3>SJC Ninjas - 314</h3>
@@ -28,6 +29,7 @@
                 <h3>NY Jets - 50</h3>
             </div>
         </div>
+
         <div id="main-nav" class="d-flex flex-row justify-between align-center">
             <div>
                 <ul id='nav-list' class="d-flex flex-row">
@@ -45,9 +47,10 @@
                 <img src="assets/user-circle-light.png" alt="">
             </div>
         </div>
+
         <div id="main" class="d-flex flex-row gap-25 background-grey">
             <div id="left" class="d-flex flex-column gap-25">
-                <div  id="top-stories" class="d-flex flex-column background-white gap-10 padding-5 ">
+                <div  id="top-stories" class="d-flex flex-column background-white gap-10 padding-20 ">
                     <h1 class="border-bot">Top Stories</h1>
                     <h2>Ninjas up big in the 5th</h2>
                     <h2>SJ Earthquakes beat<br>
@@ -69,9 +72,13 @@
                     <button id="sub-button" class="box-shadow d-flex justify-center" onclick="hide(this)">Subscribe</button>
                 </div>
             </div>
+            
             <div id="right" class="background-white gap-25 d-flex flex-column flex-1">
                 <div id="right-header" class="d-flex">
-                    <h1 class="d-flex flex-1 font-red">Live</h1>
+                    <div class="d-flex flex-1 align-center gap-10">
+                        <img id="red-circle" src="assets/red-circle.jpg" alt="">
+                        <h1 class="font-red">Live</h1>
+                    </div>
                     <h1 class="d-flex flex-2">Ninjas leading Pirates</h1>
                 </div>
                 <div>
